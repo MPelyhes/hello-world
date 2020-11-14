@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#C4E6F2;
+}
+li, a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#leaf-logo {
+  cursor: pointer;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: black;
+#video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  flex-direction: row;
+}
