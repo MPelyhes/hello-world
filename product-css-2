@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:#C4E6F2;
+}
+li, a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+header {
+  background-color: #657485;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  margin-bottom: 8rem;
+}
+#leaf-logo {
+  cursor: pointer;
+  height: 4rem;
+  width: 6rem;
+  margin-left: 5rem;
+}
+.nav-links {
+  list-style: none;
+  padding-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 1.1rem;
+  height: 100%;
+  background-color: #007D34;
+  transition: all 0.3s ease 0s;
+}
+.nav-links li:hover {
+  background-color: #00C431;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  color:white;
+  margin:0;
+}
+.nav-links li a:hover {
+  color: black;
+}
+#word-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 10rem;
+  width: 25rem;
+}
+#video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  height: 5rem;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20rem;
+ }
+.form input {
+  margin: 5rem;
+}
+.contact input[type='email'] {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: none;
+  height: 1.3rem;
+  font-size: 1.1rem;
+}
+.contact input[type='text'] {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 1.3rem;
+  font-size: 1.1rem;
+}
+.contact label {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 700;
+}
+#submit-btn {
+  max-width: 10rem;
+  width: 10rem;
+  height: 1.875rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f1c40f;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#submit-btn:hover {
+  transition: background-color color 1s;
+  background-color: #00C431;
+  color: white;
+}
