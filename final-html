@@ -1,0 +1,55 @@
+<header id="header">
+  <img id="leaf-logo" src="https://cdn.cp.adobe.io/content/2/rendition/5f316077-48c9-4813-8eef-de38055127c5/artwork/4ce1043b-d94e-4165-88e0-67a5e1c9a849/version/1/format/jpg/dimension/width/size/300" alt="leaf-industries-logo">
+  <nav>
+    <ul class="nav-links">
+      <li> <a href="#leaf-logo">Home<a/> </li>
+      <li> <a href="#big-words">Features</a></li> 
+      <li> <a href="#video">How It Works</a></li>
+      <li> <a href="#bottom-tag-container">Pricing</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <div id="word-stuff">  
+    <h1 id="big-words">Leave your leaves to us!</h1>
+    <p><strong>Leaf industries</strong> has a big truck with a big sucker on it. The big sucker takes the leaves from your lawn and puts them in our big trailer. Then we leave and you're left with a leafless lawn.</p>
+    <p>See our big truck, sucker, and trailer in action in the video below.</p>
+    <p>If your lawn needs some help, let us know by requesting a quote today!</p>
+</div>
+
+ <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <div class="contact">
+    <label for="email" id="email-label">First Name</label>
+    <input id="first_name" 
+               type="text" 
+               name="first_name" 
+               required  
+               placeholder="First Name">
+    <label for="last-name" id="email-label">Last Name</label>
+    <input id="last-name" 
+               type="text" 
+               name="last-name" 
+               required  
+               placeholder="Last Name">
+    <label for="email" id="email-label">Email</label>
+    <input id="email" 
+               type="email" 
+               name="email" 
+               required  
+               placeholder="Enter your email">
+  </div>
+  <div id="submit-container">
+    <input type="submit" id="submit-btn" value="Request Quote!">
+  </div>
+  </form>
+  <div id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DYlqoOSGh_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>  
+    </iframe>
+  </div>
+ <div id="bottom-tag-container"> 
+  <div class="bottom-tags" id="one-hour">One Hour</div>
+  <div class="bottom-tags">$99</div>
+  <div class="bottom-tags">Fast!</div>
+ </div> 
+</div>  
