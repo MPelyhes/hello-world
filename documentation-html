@@ -1,0 +1,90 @@
+ <div id="big-container">  
+  <div id="left-container">
+    <nav id="navbar">
+      <header>Advanced CSS</header>
+      <ul>
+        <li class="nav-list"><a class="nav-link" href="#CSS_Media_Queries">CSS Media Queries</a></li>
+        <li class="nav-list"><a class="nav-link" href="#What_You_Should_Already_Know">What You Should Already Know</a></li>
+        <li class="nav-list"><a class="nav-link" href="#MQ_Syntax">MQ Syntax</a></li>
+        <li class="nav-list"><a class="nav-link" href="#RWD_and_MQs">RWD and MQs</a></li>
+        <li class="nav-list"><a class="nav-link" href="#References">References</a></li>
+      </ul>
+    </nav>
+   </div>
+   <div id="right-container">
+    <main id="main-doc">
+
+      <section class="main-section" id="CSS_Media_Queries">
+        <header>CSS Media Queries</header>
+        <p>Media queries,introduced in CSS3, extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.</p>
+        <p>Media queries can be used to check many things, such as:</p>
+        <ul>
+          <li>width and height of the viewport</li>
+          <li>width and height of the device</li>
+          <li>orientation (is the tablet/phone in landscape or portrait mode?)</li>
+          <li>resolution</li>
+        </ul>
+        <p>Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).</p>
+      </section>
+
+      <section class="main-section" id="What_You_Should_Already_Know">
+         <header>What You Should Already Know</header>
+         <p>Before you dive in to learning about media queries, it's important to have a basic understanding of HTML and CSS. <a href="https://www.freecodecamp.org/learn">freeCodeCamp</a> is a great place to learn the basics of HTML and CSS. Additionally, <a href="https://www.w3schools.com/default.asp">W3Schools</a> is an excellent reference source for learning more about HTML, CSS, and other web development topics.</p>
+      </section>
+
+      <section class="main-section" id="MQ_Syntax">
+        <header>MQ Syntax</header>
+        <p>A media query consists of a media type and can contain one or more expressions, which resolve to either true or false.</p>
+        <code>@media not|only mediatype and (expressions) {
+      CSS-Code;
+          }</code>
+        <p>The result of the query is true if the specified media type matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules.<br>
+    Unless you use the not or only operators, the media type is optional and the all type will be implied.</p>
+        <h3>Examples</h3>
+        <code>
+          @media screen and (max-width: 992px) {
+      body {
+        background-color: blue;
+          }
+        </code><br>
+        <code>
+          @media screen and (max-width: 600px) {
+      body {
+        background-color: olive;
+      }
+        </code><br>
+        <code>
+          @media screen and (max-width: 600px) {
+      div.example {
+        display: none;
+      }
+        </code><br>
+        <code>
+          @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+        </code>
+      </section>
+
+      <section class="main-section" id="RWD_and_MQs">
+        <header>RWD and MQs</header>
+        <p>Responsive web design makes your web page look good on all devices, using only CSS andd HTML.</p>
+        <p>Media queries are a powerful CSS tool used extensively by web developers who prioritize responsive web design.</p>
+        <p>Media queries help web developers design for mobile first</p>
+        <p>Mobile First means designing for mobile before designing for desktop or any other device (This will make the page display faster on smaller devices).</p>
+        <p>This means that we must make some changes in our CSS.</p>
+        <p>Instead of changing styles when the width gets smaller than 768px, we should change the design when the width gets larger than 768px. This will make our design Mobile First</p>
+      </section>
+
+      <section class="main-section" id="References">
+        <header>References</header>
+        <p>All the documentation from this page is taken from the following:</p>
+        <ul>
+          <li><a href="https://www.freecodecamp.org/learn">freeCodeCamp</a></li>
+          <li><a href="https://www.w3schools.com/default.asp">W3Schools</a></li>
+      </section>
+
+    </main>
+ </div>
+</div>
